@@ -40,7 +40,7 @@ if __name__ == '__main__':
     path = sys.argv[1]
     urls = sys.argv[2:]
  
-    #urls = ['https://i.4cdn.org/b/1555710673557.jpg'] 
+    #urls = ['https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png'] 
     loop = asyncio.get_event_loop() 
     results = loop.run_until_complete(main(path, urls)) 
     print('\n'.join(results))
